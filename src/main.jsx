@@ -1,9 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import '@fontsource/inter'
+import Pages from './pages/pages'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    <Pages/>
   </StrictMode>,
 )
